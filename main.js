@@ -20,7 +20,7 @@
         h = ('0' + h).slice(-2);
         m = ('0' + m).slice(-2); 
         s = ('0' + s).slice(-2);
-        ms = ('0' + ms).slice(1,2);
+        ms = ('0' + ms).slice(-3,-2);
 
         time.textContent = h + ':' + m + ':' + s + '.' + ms;
     }
