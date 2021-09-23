@@ -47,6 +47,6 @@
         elapsedTime = 0;
         timeToadd = 0;
         updateTimetText();
-
+        time.textContent = "00:00:00.0";
     });
 })();
