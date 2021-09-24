@@ -41,6 +41,10 @@ button:active {
     box-shadow: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #reset {
     color: red;
 }
